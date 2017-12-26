@@ -1,6 +1,7 @@
 # learn
-CSS: class用. ID用#  普通不用 统一用{}<hr>
-border不能被继承 <hr>
-p>span第一个span继承  p span 所有span继承<hr>
-p{text-indent:2em;} 段落前缩进2个字<hr>
-a{display:block  display:inline} 设置元素为内连和块状 display:inline-block 内联块状元素<hr>
+1.express 路由 
+Express利用HTTP动作提供了有意义并富有表现力的URL映射API，例如我们可能想让用户帐号的URL看起来像“/user/12”的样子，下面的例子就能实现这样的路由，其中与占位标识符（本例为:id）相关的值可以被req.params获取到。
+	
+app.get('/user/:id', function(req, res){
+    res.send('user ' + req.params.id);
+});
