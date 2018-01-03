@@ -26,3 +26,20 @@ app.get('/users', function(req, res){
     // do something else
 });
 ```
+3. 给path 传参数
+// Add parameters to the path
+// --------------------------
+// Express also lets us define variables in the path.  These variables
+// will be stored by Express in the `httpRequest.params` object.
+// We can then use those variables to construct a response.
+// Open a web browser to [http://localhost:4000/steam/hello/Rachel]
+// (http://localhost:4000/steam/hello/Rachel).
+// 
+// Try changing "Rachel" in the URL in the browser.
+// 
+// ```js
+
+```app.get('/hello/:name', function(httpRequest, httpResponse) {
+    var name = httpRequest.params.name;
+    httpResponse.send('Hello, ' + name + '!');
+});```
