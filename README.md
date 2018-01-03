@@ -40,7 +40,7 @@ app.get('/users', function(req, res){
 // ```js
 
 ```
-app.get('/hello/:name', function(httpRequest, httpResponse) {
-    var name = httpRequest.params.name;
-    httpResponse.send('Hello, ' + name + '!');
+app.get('/hello/:name', function(req, res) {
+    var name = req.params.name;
+    res.send('Hello, ' + name + '!');
 });
