@@ -44,3 +44,6 @@ app.get('/hello/:name', function(req, res) {
     var name = req.params.name;
     res.send('Hello, ' + name + '!');
 });
+
+4.console.time  console.timeEnd 中间的脚本运行时间
+
