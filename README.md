@@ -47,3 +47,4 @@ app.get('/hello/:name', function(req, res) {
 
 4.console.time  console.timeEnd 中间的脚本运行时间
 
+5.val = Math.floor(Math.random()*20+1); 1-20随机数。
