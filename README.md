@@ -89,3 +89,5 @@ http://api.steampowered.com/ISteamApps/GetAppList/v2
 "name": "PLAYERUNKNOWN'S BATTLEGROUNDS"
 9. getscheme for items
 https://wiki.teamfortress.com/wiki/WebAPI/GetSchema
+10.csgo 物品数据
+https://github.com/Step7750/CSGOFloat
