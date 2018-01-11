@@ -83,3 +83,5 @@ http://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/?key=1234567
 
 7. dota2 稀有度中文请求
 https://api.steampowered.com/IEconDOTA2_205790/GetRarities/v1?key=E4CB2BA4075C279BF67CCB0484126A1A&language=zh
+8. 游戏api appid
+http://api.steampowered.com/ISteamApps/GetAppList/v2
