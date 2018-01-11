@@ -87,4 +87,5 @@ https://api.steampowered.com/IEconDOTA2_205790/GetRarities/v1?key=E4CB2BA4075C27
 http://api.steampowered.com/ISteamApps/GetAppList/v2 
 "appid": 578080,
 "name": "PLAYERUNKNOWN'S BATTLEGROUNDS"
-
+9. getscheme for items
+https://wiki.teamfortress.com/wiki/WebAPI/GetSchema
