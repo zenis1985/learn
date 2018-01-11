@@ -80,3 +80,6 @@ Sample request URL
 http://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/
 Sample request URL with parameters
 http://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/?key=1234567890&steamid=000123000456 
+
+7. dota2 稀有度中文请求
+https://api.steampowered.com/IEconDOTA2_205790/GetRarities/v1?key=E4CB2BA4075C279BF67CCB0484126A1A&language=zh
