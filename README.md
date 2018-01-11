@@ -48,3 +48,27 @@ app.get('/hello/:name', function(req, res) {
 4.console.time  console.timeEnd 中间的脚本运行时间
 
 5.val = Math.floor(Math.random()*20+1); 1-20随机数。
+
+6.
+
+Getting Started
+In order to use the Steam Web API, you have to request a key here: https://steamcommunity.com/dev/apikey. This key acts as your secret identifier when making requests to the API, so don't lose or share it.
+Requests contain the following elements
+
+Base URL
+    Usually https://api.steampowered.com but there's no guarantee that it won't change in the future.
+Interface Name
+    Indicates which method group (interface) you want to use. Methods are usually grouped by similarities, but that doesn't seem to be a hard and fast rule.
+Method Name
+    Indicates which method within the interface you want to use.
+Method Version
+    Indicates which version of the method you want to use. Valve will occasionally (almost never) update the API and roll the version number on the method. This allows applications to continue working with older versions while new applications can take advantage of the new versions
+Parameters
+    sometimes optional A one to many list of parameters to be passed to the selected method. Parameters are delimited by the & character.
+
+Request URL format
+https://{base_url}/{interface}/{method}/{version}?{parameters}
+Sample request URL
+http://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/
+Sample request URL with parameters
+http://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/?key=1234567890&steamid=000123000456 
